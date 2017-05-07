@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "484802410406",
+    "firebase_url": "https://egitim-1596a.firebaseio.com",
+    "project_id": "egitim-1596a",
+    "storage_bucket": "egitim-1596a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484802410406:android:6bcae329928e5b4a",
+        "android_client_info": {
+          "package_name": "erol.merve.egitim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484802410406-upp5mo4oajt0848drv7edadv5ftsiqh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgY1HRS7ADIEOD6n0ypJbNtfA72-l8O2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

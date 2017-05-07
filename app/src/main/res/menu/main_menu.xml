@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_height="20dp"
+    android:layout_width="20dp">
+    <item
+        android:id="@+id/sign_out_menu"
+        android:title="@string/sign_out"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ders_kayit"
+        android:orderInCategory="100"
+        android:title="Ders Kayıt"
+        app:showAsAction="always" />
+
+</menu>

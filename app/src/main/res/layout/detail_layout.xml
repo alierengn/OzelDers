@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/simge"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="5"
+            android:background="@color/com_facebook_button_background_color_pressed"
+            />
+        <TextView
+            android:layout_marginTop="70dp"
+            android:id="@+id/lbl_isim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İsim:"
+            android:paddingLeft="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lbl_sehir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Şehir:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lbl_yas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yaş:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lbl_egitim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eğitim:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lbl_ders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ders:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lbl_bilgi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bilgi:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lbl_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tel:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/oyla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oyla" />
+
+</LinearLayout>
